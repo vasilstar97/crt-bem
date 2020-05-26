@@ -1,0 +1,8 @@
+.menu__element {
+  height:45px;
+  background-color:green;
+}
+
+.menu__element+.menu__element {
+  margin-top:15px;
+}

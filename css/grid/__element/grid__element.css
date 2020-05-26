@@ -1,0 +1,13 @@
+.grid__element {
+  box-sizing: border-box;
+  border:15px solid lightgray;
+  width:33%;
+  min-width: 250px;
+  background-color:white;
+}
+
+.grid__element:after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+}
